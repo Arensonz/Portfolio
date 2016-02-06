@@ -24,7 +24,7 @@
   background-color: #ecf0f1;
 /*  text-align: center;*/
   z-index: 1;
-  box-shadow: 1px 1px 1px 1px #484848;
+  box-shadow: 1px 1px 1px 1px #585858;
 }
 
 @keyframes nameLeft {
@@ -102,6 +102,11 @@
 }
 
 /*Main Navigation*/
+.nav-line {
+  height: 1px;
+  background-color: #bebebe;
+}
+
 .navbar {
   width: 100%;
   margin-top: 66px;
@@ -115,21 +120,12 @@
   text-align: center;
   width: 100%;
   z-index: 2;
+  box-shadow: 1px 2px 2px #585858;
 }
 
 /*Carousel*/
 #myCarousel {
   margin-top: 5px;
-}
-
-.indicators {
-/*  position: fixed;*/
-  top: 1000px;
-}
-
-.carousel-indicators{
-  position: fixed;
-/*  top: 1000px;*/
 }
 
 .carousel-control .glyphicon, .carousel-control .glyphicon-chevron-left,
