@@ -1,19 +1,27 @@
 @charset "UTF-8";
+
+.affix {
+  position: fixed;
+  top: 0;
+}
+
 /*Background Hero Image*/
-.hero {
+
+body {
   color: #191919;
-  background: #ffffff url("../Images/Hero_Image_1.png");
-  background-size: 100% 100%;
-  background-size: cover;
-  background-position: right top;
-/*    background-position: 0px 100px;*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+/*  background: #ffffff url("../Images/Hero_Image_1.png");*/
+/*  background-size: 100% 100%;*/
+/*  background-size: cover;*/
+/*  background-position: right top;*/
+/*  background-repeat: no-repeat;*/
+/*  background-attachment: fixed;*/
   text-align: center;
 }
+
 /*Header*/
-.ruler {
-  margin-top: 66px;
+
+.header-spacer {
+	height: 66px;
 }
 
 .header {
@@ -22,32 +30,17 @@
   width: 100%;
   height: 66px;
   background-color: #ffffff;
-/*  text-align: center;*/
   z-index: 1;
   box-shadow: 1px 1px 1px 1px #585858;
 }
 
-@keyframes nameLeft {
-/*  from {left: 300px;}
-  to {left: 100px;}*/
-}
-
 .nameBlock {
-/*  position: absolute;
-  clip: rect(0px, 285px, 66px, 0px);*/
   margin-top: 23.5px;
   margin-bottom: 23.5px;
   padding: 0px;
 }
 
 .name {
-/*  position: absolute;
-  left: 100px;
-  width: 150px;
-  animation-name: nameLeft;
-  animation-duration: 1s;
-  animation-delay: 1s;
-  animation-timing-function: ease-in-out;*/
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: right;
@@ -59,49 +52,39 @@
 }
 
 .logo {
-/*  z-index: 8;*/
   width: 66px;
   padding: 0px;
 }
 
-@keyframes jobRight {
- /* from {right: 300px;}
-  to {right: 100px;}*/
-}
-
 .jobBlock {
-/*  position: absolute;*/
-/*  clip: rect(0px, 285px, 66px, 0px);*/
   margin-top: 23.5px;
   margin-bottom: 23.5px;
   padding: 0px;
 }
 
 .job {
-  /*position: absolute;
-  right: 100px;
-  width: 140px;
-  animation-name: jobRight;
-  animation-duration: 1s;
-  animation-delay: 1s;
-  animation-timing-function: ease-in-out;*/
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: left;
 }
 
 /*Intro*/
+
 .intro {
   width: 100%;
   height: 600px;
-}
-
-.affix {
-  position: fixed;
-  top: 0;
+	color: #191919;
+  background: #ffffff url("../Images/Hero_Image_1.png");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: right top 66px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 /*Main Navigation*/
+
 .nav-line {
   height: 1px;
   background-color: #bebebe;
@@ -109,7 +92,7 @@
 
 .navbar {
   width: 100%;
-  margin-top: 66px;
+/*  margin-top: 66px;*/
   margin-bottom: -20px;
   border: 0px;
   z-index: 2;
@@ -121,6 +104,11 @@
   width: 100%;
   z-index: 2;
   box-shadow: 1px 2px 2px #585858;
+}
+
+.navblock .affix {
+	position: fixed;
+	top: 66px;
 }
 
 /*Carousel*/
@@ -139,9 +127,21 @@
   top: 300px;
 }
 
-.indicators {
-  
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
 }
+
+.carousel-indicators {
+	position: fixed;
+	bottom: 0px;
+}
+
+/*Work Content*/
 
 .test {
   height: 2000px;
@@ -181,11 +181,15 @@
   margin-top: -20px;
 }
 
+/*About*/
+
 .test6 {
   height: 2000px;
   background-color: #938989;
   margin-top: -20px;
 }
+
+/*Contact*/
 
 .test7 {
   height: 2000px;
