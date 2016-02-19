@@ -24,221 +24,734 @@
     
   <body>
 <!--Header-->
-      <div>
-        <div class="header">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-2 col-sm-2 col-xs-0"></div>
-              <div class="col-lg-3 col-sm-3 col-xs-4 nameBlock">
-                <h4 class="name">Zach Arenson</h4>
-              </div>
-              <div class="col-lg-2 col-sm-2 col-xs-4 logoBlock">
-                <div id="logo">
-                  <img src="Images/Logo_Black50x50.png">
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-3 col-xs-4 jobBlock">
-                <h4 class="job">UX Designer</h4>
-              </div>
-              <div class="col-lg-2 col-sm-2 col-xs-0"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-<!--Intro-->
-			<div class="header-spacer"></div>
-      <div id="intro" class="intro"></div>
-<!--Main Navigation-->
-      <div class="navblock">
-			<div class="navbar" data-spy="affix" data-offset-top="600">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="navbar-header">
-              <div>
-                <div class="col-lg-4 col-sm-4 col-xs-0"></div>
-                <div class="col-lg-4 col-sm-4 col-xs-0"></div>
-                <div class="col-lg-4 col-sm-4 col-xs-0"></div>
-              </div>
-              <div class="col-lg-2 col-sm-2 col-xs-0"></div>
-              <div class="col-lg-2 col-sm-2 col-xs-4 navbtn" data-target="#myCarousel" data-slide-to="0">
-                <h4>Work</h4>
-              </div>
-              <div class="col-lg-1 col-sm-1 col-xs-0"></div>
-              <div class="col-lg-2 col-sm-2 col-xs-4 navbtn" data-target="#myCarousel" data-slide-to="6">
-                <h4>About</h4>
-              </div>
-              <div class="col-lg-1 col-sm-1 col-xs-0"></div>
-              <div class="col-lg-2 col-sm-2 col-xs-4 navbtn" data-target="#myCarousel" data-slide-to="7">
-                <h4>Contact</h4>
-              </div>
-              <div class="col-lg-2 col-sm-2 col-xs-0"></div>
-
-            </div>
-          </div>
-        </div>
-      </div>
+		<div>
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-sm-2 col-xs-0"></div>
+						<div class="col-lg-3 col-sm-3 col-xs-4 nameBlock">
+							<h4 class="name">Zach Arenson</h4>
+						</div>
+						<div class="col-lg-2 col-sm-2 col-xs-4 logoBlock">
+							<div id="logo">
+								<img src="Images/Logo_Black50x50.png">
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-3 col-xs-4 jobBlock">
+							<h4 class="job">UX Designer</h4>
+						</div>
+						<div class="col-lg-2 col-sm-2 col-xs-0"></div>
+					</div>
+				</div>
 			</div>
+		</div>
+		<div class="header-spacer"></div>
+<!--Intro-->
+		<div id="intro" class="intro">
+			<div class="col-lg-2 col-sm-2 col-xs-2 intro-spacer"></div>
+			<div class="col-lg-5 col-sm-5 col-xs-5 intro-text">
+				<h3>Hello my name is Zach and</h3>
+				<h2>I'm a</h2>
+				<h1>UX Designer</h1>
+			</div>
+			<div class="col-lg-5 col-sm-5 col-xs-5 intro-spacer"></div>
+		</div>
+<!--Main Navigation-->
+		<div class="navblock">
+		<div class="navbar" data-spy="affix" data-offset-top="600">
+			<div class="container-fluid">
+				<div class="row">
+					<div>
+						<div>
+							<div class="col-lg-4 col-sm-4 col-xs-0"></div>
+							<div class="col-lg-4 col-sm-4 col-xs-0 navline"></div>
+							<div class="col-lg-4 col-sm-4 col-xs-0"></div>
+						</div>
+					</div>
+					<div class="navbar-header">
+						<div class="col-lg-2 col-sm-2 col-xs-0"></div>
+						<button class="col-lg-2 col-sm-2 col-xs-4 btn work" id="work" data-toggle="button" aria-pressed="false" autocomplete="off" type="button" data-target="#myCarousel" data-slide-to="0">
+							<h4>Work</h4>
+						</button>
+						<div class="col-lg-1 col-sm-1 col-xs-0"></div>
+						<button class="col-lg-2 col-sm-2 col-xs-4 btn about" id="about" data-toggle="button" aria-pressed="false" autocomplete="off" type="button" data-target="#myCarousel" data-slide-to="6">
+							<h4>About</h4>
+						</button>
+						<div class="col-lg-1 col-sm-1 col-xs-0"></div>
+						<button class="col-lg-2 col-sm-2 col-xs-4 btn contact" id="contact" data-toggle="button" aria-pressed="false" autocomplete="off" type="button" data-target="#myCarousel" data-slide-to="7">
+							<h4>Contact</h4>
+						</button>
+						<div class="col-lg-2 col-sm-2 col-xs-0"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
 <!--Carousel-->
-      <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
-						
-        <!-- Indicators -->
-        <div>
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-            <li data-target="#myCarousel" data-slide-to="7"></li>
-          </ol>
-        </div>
+		<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
 
-        <!-- Content -->
-        <div class="carousel-inner" role="listbox">
+			<!-- Indicators -->
+			<div>
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
+					<li data-target="#myCarousel" data-slide-to="6"></li>
+					<li data-target="#myCarousel" data-slide-to="7"></li>
+				</ol>
+			</div>
 
-          <div class="item active">
-<!--						<div class="content-header-spacer"></div>-->
-						<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
-            <div class="col-lg-8 col-sm-8 col-xs-8 test">
-							
-							<div class="content-header">
-								<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
-								<p>ACT Enroll</p>
-								<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
-							</div>
-						
-							<div class="myRole">
-								<h2>My Role</h2>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
-								<div>
-									<div class="col-lg-4 col-sm-4 col-xs-4">
-										<h3>SubRole</h3>
-										<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
-									</div>
-									<div class="col-lg-4 col-sm-4 col-xs-4">
-										<h3>SubRole</h3>
-										<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
-									</div>
-									<div class="col-lg-4 col-sm-4 col-xs-4">
-										<h3>SubRole</h3>
-										<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
-									</div>
+			<!-- Content -->
+			<div class="carousel-inner" role="listbox">
+
+				<div class="item active">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
 								</div>
-								<div>
-									<div class="col-lg-4 col-sm-4 col-xs-4">
-										<h3>SubRole</h3>
-										<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
-									</div>
-									<div class="col-lg-4 col-sm-4 col-xs-4">
-										<h3>SubRole</h3>
-										<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
-									</div>
-									<div class="col-lg-4 col-sm-4 col-xs-4">
-										<h3>SubRole</h3>
-										<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
-									</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
 								</div>
 							</div>
-						
-							<div class="challenge">
-								<h2>The Challenge</h2>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
 							</div>
-							
-							<div class="vision">
-								<h2>The Vision</h2>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
 							</div>
-						
-							<div class="approach">
-								<h2>The Approach</h2>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
 							</div>
-								
-							<div class="path">
-								<h2>The Path</h2>
-								<h5>Research</h5>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
-								<h5>Concept Design</h5>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
-								<h5>UT</h5>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
-								<h5>Detailed Design</h5>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
 							</div>
-							
-							<div class="conculsion">
-								<h2>Conclusion</h2>
-								<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
 							</div>
-						
-            </div>
-						<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
-          </div>
+						</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
 
-          <div class="item">
-            <div class="test">
-            </div>
-          </div>
-        </div>
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
 
-        <!-- Control Left -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">     
-          <div class="carouselArrows" data-spy="affix" data-offset-top="400">
-            <div class="container-fluid">
-              <div class="row">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </div>
-            </div>										
-          </div>
-        </a>
-        <!-- Control Right -->
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <div class="carouselArrows" data-spy="affix" data-offset-top="400">
-            <div class="container-fluid">
-              <div class="row">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </div>
-            </div>										
-          </div>
-        </a>
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
 
-      </div>
-    
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+				<div class="item">
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+					<div class="col-lg-8 col-sm-8 col-xs-8 test">
+
+						<div class="content-header">
+							<img src="/Images/ACT_Enroll_Icon.jpg" class="img-circle"></img>
+							<p>ACT Enroll</p>
+							<h4>Conbining over 10 differnet ACT student recruiment tools into one program.</h4>
+						</div>
+
+						<div class="myRole">
+							<h2>My Role</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-xs-12">
+									<h3>SubRole</h3>
+									<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="challenge">
+							<h2>The Challenge</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="vision">
+							<h2>The Vision</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="approach">
+							<h2>The Approach</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="path">
+							<h2>The Path</h2>
+							<h5>Research</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Concept Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>UT</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+							<h5>Detailed Design</h5>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+						<div class="conclusion">
+							<h2>Conclusion</h2>
+							<p>Lorem ipsum dolor sit amet, ferri aliquid ancillae qui ne. Dico eirmod probatus has ut, vim postea facete suscipit et. Sit erant nobis noluisse ut, brute illum alienum in duo. Ut duo natum everti consulatu, no mea nostrud suavitate.</p>
+						</div>
+
+					</div>
+					<div class="col-lg-2 col-sm-2 col-xs-2 content-spacer"></div>
+				</div>
+
+			</div>
+
+			<!-- Control Left -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">     
+				<div class="carouselArrows" data-spy="affix" data-offset-top="400">
+					<div class="container-fluid">
+						<div class="row">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</div>
+					</div>										
+				</div>
+			</a>
+			<!-- Control Right -->
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<div class="carouselArrows" data-spy="affix" data-offset-top="400">
+					<div class="container-fluid">
+						<div class="row">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</div>
+					</div>										
+				</div>
+			</a>
+
+		</div>
+<!--Footer-->
+		<div class="footer">website by Zach Arenson</div>
 <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   
